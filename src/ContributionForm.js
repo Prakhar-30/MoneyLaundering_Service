@@ -30,7 +30,7 @@ function ContributionForm({ contract }) {
         type="submit"
         className="mt-2 w-full bg-indigo-500 text-white rounded-md px-4 py-2 hover:bg-indigo-600 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-opacity-50"
       >
-        Contribute
+        Get Service
       </button>
     </form>
   );
