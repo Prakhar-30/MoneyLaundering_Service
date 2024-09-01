@@ -371,14 +371,8 @@ const contractABI = [
 		"type": "fallback"
 	},
 	{
-		"inputs": [
-			{
-				"internalType": "uint256",
-				"name": "_amount",
-				"type": "uint256"
-			}
-		],
-		"name": "withdrawEther",
+		"inputs": [],
+		"name": "withdraw",
 		"outputs": [],
 		"stateMutability": "nonpayable",
 		"type": "function"
@@ -553,12 +547,12 @@ const contractABI = [
 		"stateMutability": "view",
 		"type": "function"
 	}
-]; // Add your contract ABI here
+]
 
 const contracts = [
-  { name: "Launder Stage 1", address: "0xD5ac0437E7B9612F1eFc016B7F2F44Eb9fD7241e" },
-  { name: "Launder Stage 2", address: "0x765d18f3E4889C17e7F0B80479c8d51a9eD03A16" },
-  { name: "Launder Stage 3", address: "0xc3AbD988801f8b31c7EC92c5B6F34c3A00A6e865" },
+  { name: "Launder Stage 1", address: "0x534269139EF74c46f7383A74BEc309B4308c02D9" },
+  { name: "Launder Stage 2", address: "0x691bf122e5BAd726D5c4Cb7D1F11401D810c3555" },
+  { name: "Launder Stage 3", address: "0x85f8548Be69c85Fa722AC271b9c601336190824A" },
 ];
 
 function App() {
