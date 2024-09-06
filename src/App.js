@@ -550,9 +550,9 @@ const contractABI = [
 ]
 
 const contracts = [
-  { name: "Launder Stage 1", address: "0x534269139EF74c46f7383A74BEc309B4308c02D9" },
-  { name: "Launder Stage 2", address: "0x691bf122e5BAd726D5c4Cb7D1F11401D810c3555" },
-  { name: "Launder Stage 3", address: "0x85f8548Be69c85Fa722AC271b9c601336190824A" },
+  { name: "Launder Stage 1", address: "0xC0DC6634544400e959d23c15FF1980E3F3602c9C" },
+  { name: "Launder Stage 2", address: "0x50247E8B71083C162Dc81Dadbc1781D91b337320" },
+  { name: "Launder Stage 3", address: "0x83A1a92Dc06035987ABD1642ca875A12c4c4E54a" },
 ];
 
 function App() {
